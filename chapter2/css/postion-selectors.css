@@ -1,0 +1,17 @@
+ul > li {
+    color: blue;
+}
+ul strong {
+    background-color: gray;
+
+}
+
+ul em {
+    background-color: gainsboro;
+}
+h1 + p {
+    background-color: green;
+}
+h1 + p + p {
+    background-color: pink;
+}

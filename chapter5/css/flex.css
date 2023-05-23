@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+div[class^="box"] {
+    width: 50px;
+    height: 100px;
+    margin:0px 10px;
+    background-color: rgb(44, 88, 74);
+    color: white;
+    font-size: 3rem;
+    /* flex: 1; */
+}
+.box1, .box2, .box3, .box4 {
+    flex: 1;
+}
+.box1 {
+    /* order:5 */
+    /* align-self: flex-start; */
+    /* flex: */
+}
+.box5 {
+    /* order:-1 */
+    /* align-self: flex-end; */
+    flex: 3;
+}
+

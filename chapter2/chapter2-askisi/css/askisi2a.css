@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+}
+
+.container-fluid {
+    width: 90%;
+}
+.container {
+    width: 60%;
+    border: 1px solid black;
+    background-color: chocolate;
+    
+}
+.epikefalida1-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: antiquewhite;
+}
+.epikefalida2-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.summary-text {
+    font-style: italic;
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center;
+    background-color:cornflowerblue;
+}
+
+.education-wrapper {
+    font-style:normal;
+    color: black;
+    font-weight: bold;
+}
+
+.info-wrapper {
+    text-align:center;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.fg-light {
+    background-color:burlywood;
+}
+.bg-primary {
+    background-color:cornflowerblue
+}
+

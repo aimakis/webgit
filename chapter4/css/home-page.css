@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    overflow: hidden;
+    background-color: rgb(118, 33, 36);
+}
+.logo {
+    float: left;
+}
+.logo > img {
+    width: auto;
+    height: 120px;
+    vertical-align: middle;
+}
+.nav {
+    float: left;
+    width: 500px;
+}
+.nav > ul {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    list-style: none;
+    color: antiquewhite;
+    
+}
+.nav a {
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 5px 5px;
+}
+
+.nav a:hover {
+    
+    background-color: blueviolet;
+}
+.nav a:active {
+    background-color: cornflowerblue;
+}
+
+.home-img {
+    position: relative;
+    overflow: hidden;
+    height: calc(95vh - 120px);
+    background-image: url('../../img/tep-aueb2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color: #762124;
+    font-size: 2.5rem;
+    font-weight:600;
+    text-align: center;
+    
+    
+}
+.home-subtitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    color: black;
+    font-size: 1.5rem;
+    font-weight:600;
+    text-align: center;
+    margin-top:160px;
+}
+
+.gap-bottom {
+    margin-bottom: 25px ;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    height: 150px;
+    background-color: #762124;
+    justify-content: space-between;
+    align-items: center;
+    color: wheat;
+    padding: 0 10px;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+.social > span {
+    margin-right: 10px;
+}
+.social-text{
+    color: blue;
+    font-size: 1.5rem;
+}

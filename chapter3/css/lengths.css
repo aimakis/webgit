@@ -1,0 +1,14 @@
+.header {
+    
+    height: 200px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+.aeub-img > img {
+    width: auto;
+    height: calc(90vh - 200px);
+    
+}
+.text {
+    text-align: center;
+}

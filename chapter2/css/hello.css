@@ -1,0 +1,12 @@
+body {
+    background-color: gray;
+
+}
+
+p, li {
+    color: white;
+    background-color: pink;
+}
+li {
+    list-style-type:disc;
+}

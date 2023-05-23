@@ -1,0 +1,33 @@
+.container {
+    width: 90%;
+}
+.cf-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-style: oblique;
+}
+.cf-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: semi-condensed;
+    font-weight: 300;
+    line-height: 1.5rem;   
+}
+
+.courses-title {
+
+    font-family:'Roboto Slab', serif;
+    font-weight: 400;
+    color:rgb(119, 36, 39);
+    text-shadow: 2px 2px 2px red;
+    text-decoration: underline;
+     
+     
+}
+.courses-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background: blue;
+    text-align: justify;
+    text-indent: 10px;
+    border: 2px dotted chocolate
+}

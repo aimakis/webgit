@@ -1,0 +1,30 @@
+* {
+    margin: 10px 2px;
+}
+.container {
+    background-color: gray;
+}
+
+.container > h2:first-of-type {
+    font-size: 24px ;
+}
+
+.container > p:first-of-type {
+    color: darkmagenta;
+}
+
+ul > li:first-child {
+    font-weight: 700;
+}
+
+.courses-list > li:nth-child(3){
+    color: blue
+}
+
+.courses-list > li:nth-child(2){
+    color: chocolate;
+}
+
+
+
+    
